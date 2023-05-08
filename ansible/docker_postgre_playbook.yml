@@ -68,15 +68,15 @@
         force_kill: true
 
 # Remove the image if it exists
-    - name: remove clarusway/postgre image
+    - name: remove erkmustech/postgre image
       community.docker.docker_image:
-        name: clarusway/postgre
+        name: erkmustech/postgre
         state: absent
 
 #  docker build -t <image-name> .
     - name: build container image
       community.docker.docker_image:
-        name: clarusway/postgre
+        name: erkmustech/postgre
         build:
           path: /home/ec2-user/postgresql
         source: build
@@ -90,7 +90,7 @@
     - name: Launch postgresql docker container
       community.docker.docker_container:
         name: cla_postgre
-        image: clarusway/postgre
+        image: erkmustech/postgre
         state: started
         ports: 
         - "5432:5432"

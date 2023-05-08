@@ -1,0 +1,11 @@
+- src: git+https://github.com/geerlingguy/ansible-role-docker
+  name: docker
+  version: 6.1.0
+
+- src: git+https://github.com/geerlingguy/ansible-role-ntp
+  version: 2.1.0
+  name: ansible-role-ntp # a tool set time tool, keep time sycrnous the time
+
+- src: git+https://github.com/UnderGreen/ansible-prometheus-node-exporter
+  version: master
+  

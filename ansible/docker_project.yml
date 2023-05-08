@@ -59,7 +59,7 @@
   vars:
     container_path: /home/ec2-user/postgresql
     container_name: cla_postgre
-    image_name: clarusway/postgre
+    image_name: erkmsutech/postgre
 
   tasks:
     - name: copy files to the postgresql node
@@ -112,7 +112,7 @@
   vars: 
     container_path: /home/ec2-user/nodejs
     container_name: cla_nodejs
-    image_name: clarusway/nodejs
+    image_name: erkmsutech/nodejs
 
   tasks:
     - name: copy files to the nodejs node
@@ -161,7 +161,7 @@
   vars:
     container_path: /home/ec2-user/react
     container_name: cla_react
-    image_name: clarusway/react
+    image_name: erkmsutech/react
 
   tasks:
     - name: copy files to the react node

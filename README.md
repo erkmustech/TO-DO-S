@@ -52,13 +52,13 @@ In the architecture, you can configure your architecture with these conditions,
 ```text
 007:clarusway_ansible_proj (folder)
 |
-|----Readme.md               # Given to the students (Definition of the project)
-|----todo-app-perm (folder)  # Given to the students (Nodejs and React files)
+|----Readme.md    
+|----todo-app-perm (folder) 
 |       1.server (folder) ---> Nodejs folders and files
 |       2.client (folder) ---> React folders and files
 |       3.database (folder)--> init.sql file 
-|----developer_notes.txt     # Given to the students (txt file)
-|----Ansible-Playbook        # This will be created by student
+|----developer_notes.txt  
+|----Ansible-Playbook     
 ```
 
 ## Expected Outcome

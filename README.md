@@ -77,7 +77,7 @@ In the architecture, you can configure your architecture with these conditions,
 - Docker container launching using created image with ansible playbook
 - Git & Github for Version Control System
 
-### At the end of the project, students will be able to;
+### At the end of the project;
 - Write Ansible playbook in different ways which are without Roles and with Roles
 - Apply web programming skills, importing packages within Nodejs and React Frameworks
 - Write Dockerfiles for different environments
